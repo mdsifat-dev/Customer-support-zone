@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login issue",
+    "description": "User unable to log into the system with correct credentials.",
+    "customer": "Alice",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-05 10:22:13"
+  },
+  {
+    "id": 1002,
+    "title": "Payment not processed",
+    "description": "Customer reports payment deducted but not reflected in system.",
+    "customer": "Bob",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-03 08:15:44"
+  },
+  {
+    "id": 1003,
+    "title": "Bug in dashboard",
+    "description": "Dashboard widgets not loading correctly on Chrome.",
+    "customer": "Charlie",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-01 16:05:12"
+  },
+  {
+    "id": 1004,
+    "title": "Feature request: Dark mode",
+    "description": "Customer requested a dark mode for better usability at night.",
+    "customer": "David",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-07 09:45:28"
+  },
+  {
+    "id": 1005,
+    "title": "Error 500 on checkout",
+    "description": "Server error occurring during checkout process.",
+    "customer": "Eve",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-10 13:12:55"
+  },
+  {
+    "id": 1006,
+    "title": "Mobile app crash",
+    "description": "App crashes on launch for Android 12 users.",
+    "customer": "Alice",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-02 07:55:19"
+  },
+  {
+    "id": 1007,
+    "title": "Invoice not received",
+    "description": "Customer did not receive invoice email after purchase.",
+    "customer": "Bob",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-12 12:33:47"
+  },
+  {
+    "id": 1008,
+    "title": "Password reset not working",
+    "description": "Password reset link leads to error page.",
+    "customer": "Charlie",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-08 18:22:02"
+  },
+  {
+    "id": 1009,
+    "title": "UI alignment issue",
+    "description": "Misaligned buttons on Safari browser.",
+    "customer": "David",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-11 11:05:38"
+  },
+  {
+    "id": 1010,
+    "title": "Notification delay",
+    "description": "Push notifications delayed by up to 10 minutes.",
+    "customer": "Eve",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-06 14:49:27"
+  },
+  {
+    "id": 1011,
+    "title": "Database timeout",
+    "description": "Frequent database timeouts during high traffic.",
+    "customer": "Alice",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-13 09:31:41"
+  },
+  {
+    "id": 1012,
+    "title": "Integration error",
+    "description": "Third-party API returning invalid response codes.",
+    "customer": "Bob",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-04 21:10:33"
+  },
+  {
+    "id": 1013,
+    "title": "Performance lag",
+    "description": "System performance degraded during reports generation.",
+    "customer": "Charlie",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-09 15:14:20"
+  },
+  {
+    "id": 1014,
+    "title": "Email not delivered",
+    "description": "Transactional emails not reaching Gmail accounts.",
+    "customer": "David",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-01 19:43:55"
+  },
+  {
+    "id": 1015,
+    "title": "Two-factor auth problem",
+    "description": "Customer unable to receive 2FA SMS codes.",
+    "customer": "Eve",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-14 17:28:39"
+  }
+]
