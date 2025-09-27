@@ -1,4 +1,4 @@
-# 👉Click me to check my work [https://customer-support-zone-mdsifat-dev.netlify.app/]
+# [Click me to check my work 🚀] (https://customer-support-zone-mdsifat-dev.netlify.app/)
 
 ### 1. What is JSX, and why is it used?
 
@@ -36,9 +36,9 @@ function Counter() {
 
   return (
     <div>
-      <p>Count: {count}</p> // count is the state, and setCount updates it.
+      <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>Increase</button>
-    </div>
+    </div> // count is the state, and setCount updates it.
   );
 }
 
