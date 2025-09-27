@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import "./App.css";
 import IssueManagement from "./Components/IssueManagement";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 const fetchData = async () => {
   const res = await fetch("/data.json");
@@ -22,6 +23,8 @@ function App() {
       >
         <IssueManagement fetchPromise={fetchPromise}></IssueManagement>
       </Suspense>
+
+      <Footer></Footer>
     </div>
   );
 }

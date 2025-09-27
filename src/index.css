@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.footer_text {
+  @apply text-[16px] text-[#A1A1AA] space-y-2;
+}
+
+.footer_title {
+  @apply text-[20px] font-bold mb-3;
+}
