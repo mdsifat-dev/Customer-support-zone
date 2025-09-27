@@ -3,6 +3,7 @@ import "./App.css";
 import IssueManagement from "./Components/IssueManagement";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import { ToastContainer } from "react-toastify";
 
 const fetchData = async () => {
   const res = await fetch("/data.json");
@@ -25,6 +26,8 @@ function App() {
       </Suspense>
 
       <Footer></Footer>
+
+      <ToastContainer></ToastContainer>
     </div>
   );
 }
