@@ -1,5 +1,6 @@
+import { Suspense } from "react";
 import "./App.css";
-
+import IssueManagement from "./Components/IssueManagement";
 import Navbar from "./Components/Navbar";
 
 const fetchData = async () => {
@@ -12,7 +13,15 @@ function App() {
 
   return (
     <div className="bgColor">
+      {/* Navbar  */}
       <Navbar></Navbar>
+
+      {/* Main Section  */}
+      <Suspense
+        fallback={<span class="loading loading-spinner loading-xl  "></span>}
+      >
+        <IssueManagement fetchPromise={fetchPromise}></IssueManagement>
+      </Suspense>
     </div>
   );
 }
